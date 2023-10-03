@@ -1,5 +1,17 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Colors */
+  --default-background-color: hsla(322, 50%, 3%, 1);
+  --default-font-color: hsla(0, 0%, 100%, 1);
+
+  /* Fonts size */
+  --font-size-fluid-h1: clamp(3.6rem, 4.67vw + 1.73rem, 6.4rem);
+  --font-size-fluid-h2: clamp(3.2rem, 4.17vw + 1.53rem, 5.7rem);
+  --font-size-fluid-h3: clamp(2.8rem, 2.83vw + 1.67rem, 4.5rem);
+  --font-size-fluid-h4: 2.4rem;
+  --font-size-fluid-p-lg: 1.6rem;
+  --font-size-fluid-p-sm: 1.2rem;
 }
 
 html {
@@ -7,6 +19,8 @@ html {
 }
 
 body {
+  background-color: var(--default-background-color);
   font-size: 1.6rem;
   min-height: 100vh;
+  color: var(--default-font-color);
 }
