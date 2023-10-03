@@ -1,0 +1,14 @@
+main {
+    max-width: 80vw;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    background-image: url('../../../public/images/backgrounds/header-pink-blur.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}

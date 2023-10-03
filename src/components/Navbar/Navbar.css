@@ -1,0 +1,39 @@
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 45px;
+}
+
+nav ul li:nth-child(1) {
+  margin-left: auto;
+}
+
+nav ul li:nth-child(5) {
+  position: absolute;
+  right: 70px;
+}
+
+nav ul li:nth-child(6) {
+  position: absolute;
+  right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:nth-child(-n + 4):hover {
+  text-decoration: underline;
+}

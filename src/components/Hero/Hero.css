@@ -1,0 +1,15 @@
+.hero-container {
+    display: flex;
+    gap: 4.1rem;
+    margin-top: 20rem;
+}
+
+.hero-image {
+    margin-left: 9rem;
+    display: inline-block;
+}
+
+#green-face {
+    width: 21.2rem;
+    height: 21.2rem;
+}

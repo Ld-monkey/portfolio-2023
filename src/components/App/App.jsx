@@ -1,8 +1,17 @@
+import Hero from '../Hero/Hero';
+import Navbar from '../Navbar/Navbar';
+import ScrollingButton from '../ScrollingButton/ScrollingButton';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <main>
+      <section className="hero-section">
+        <Navbar />
+        <Hero />
+        <ScrollingButton />
+      </section>
+    </main>
   );
 }
 
