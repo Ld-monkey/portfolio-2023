@@ -29,11 +29,6 @@ nav ul li:nth-child(6) {
   right: 20px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
 nav ul li a:nth-child(-n + 4):hover {
   text-decoration: underline;
 }

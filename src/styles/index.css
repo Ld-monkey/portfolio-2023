@@ -1,7 +1,7 @@
 /* roboto-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   src: url('../assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
@@ -13,6 +13,7 @@
   /* Colors */
   --default-background-color: hsla(322, 50%, 3%, 1);
   --default-font-color: hsla(0, 0%, 100%, 1);
+  --default-link-color: white;
 
   /* Fonts size */
   --font-size-fluid-h1: clamp(3.6rem, 4.67vw + 1.73rem, 6.4rem);
@@ -36,4 +37,9 @@ body {
 
 h1 {
   font-size: var(--font-size-fluid-h1);
+}
+
+a {
+  text-decoration: none;
+  color: var(--default-link-color);
 }

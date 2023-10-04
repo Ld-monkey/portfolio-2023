@@ -1,9 +1,13 @@
+import Icon from '../Icons/Icons';
 import './ScrollingButton.css';
 
 function ScrollingButton() {
   return (
     <div className="scrolling-container">
-      <p>Scroller pour en savoir plus</p>
+      <Icon className="arrow-bottom" icon="arrow-bottom" size={18} />
+      <a href="#" className="scrolling-link">
+        Scroller pour en savoir plus
+      </a>
     </div>
   );
 }
