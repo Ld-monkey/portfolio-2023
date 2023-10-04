@@ -5,6 +5,7 @@
 }
 
 .hero-image {
+    position: relative;
     margin-left: 9rem;
     display: inline-block;
 }
@@ -12,4 +13,30 @@
 #green-face {
     width: 21.2rem;
     height: 21.2rem;
+}
+
+.btn-reset {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    height: 2.6rem;
+    padding: 0;
+}
+
+/* Select reload icon. */
+.btn-reset > svg:hover {
+    animation: reload-spinner 1s linear;
+}
+
+@keyframes reload-spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
