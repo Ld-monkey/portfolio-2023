@@ -17,7 +17,7 @@
 
 .btn-reset {
     position: absolute;
-    right: 0;
+    right: 8px    ;
     bottom: 0;
     border: none;
     outline: none;
@@ -28,8 +28,12 @@
 }
 
 /* Select reload icon. */
-.btn-reset > svg:hover {
-    animation: reload-spinner 1s linear;
+.btn-reset svg {
+    color: hsla(0, 0%, 91%, 0.15)
+}
+
+.btn-reset svg:hover {
+    animation: reload-spinner 1.2s linear infinite;
 }
 
 @keyframes reload-spinner {
