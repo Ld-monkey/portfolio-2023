@@ -13,7 +13,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icomoon": "^2.5.7",
-    "react-vivus": "^0.0.2",
     "vivus": "^0.4.6"
   },
   "devDependencies": {
