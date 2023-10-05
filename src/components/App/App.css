@@ -4,11 +4,10 @@
     margin: 0 auto;
 }
 
-.hero-section {
+#about-section {
     min-height: 100vh;
-    /* border: 1px solid red; */
-    background-image: url('/images/backgrounds/header-pink-blur.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
+}
+
+#about-section h3 {
+    text-align: center;
 }

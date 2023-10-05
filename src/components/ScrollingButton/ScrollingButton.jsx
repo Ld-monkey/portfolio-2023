@@ -5,7 +5,7 @@ function ScrollingButton() {
   return (
     <div className="scrolling-container">
       <Icon className="arrow-bottom" icon="arrow-bottom" size={18} />
-      <a href="#" className="scrolling-link">
+      <a href="#about-section" className="scrolling-link">
         Scroller pour en savoir plus
       </a>
     </div>
