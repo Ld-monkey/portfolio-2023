@@ -11,3 +11,12 @@
 #about-section h3 {
     text-align: center;
 }
+
+/* Top svg pink circle */
+.top-circle {
+    position: relative;
+}
+
+.top-circle > img {
+    position: absolute;
+}

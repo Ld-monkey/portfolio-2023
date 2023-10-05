@@ -7,6 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="top-circle">
+        <img src="/images/backgrounds/header-pink-blur.svg" alt="top circle" />
+      </div>
       <section id="hero-section">
         <Navbar />
         <div className="hero-grid">
