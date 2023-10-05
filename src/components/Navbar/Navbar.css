@@ -1,7 +1,9 @@
 nav {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
 }
 
 nav ul {
@@ -11,8 +13,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block;
-  margin-top: 45px;
+  display: none;
 }
 
 nav ul li:nth-child(1) {
@@ -31,4 +32,34 @@ nav ul li:nth-child(6) {
 
 nav ul li a:nth-child(-n + 4):hover {
   text-decoration: underline;
+}
+
+nav ul li:nth-child(n + 5) {
+  display: none;
+}
+
+/* hamburger menu */
+.hamburger-container {
+  margin-right: 2.7rem;
+}
+
+/* media query */
+@media screen and (min-width: 640px) {
+  nav {
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+  } 
+
+  .hamburger-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav ul li:nth-child(n + 5) {
+    display: inline;
+  }
 }
