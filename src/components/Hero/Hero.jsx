@@ -29,7 +29,7 @@ function Hero() {
           callback={console.log}
         />
         <button type="button" onClick={handleResetAnimation} className="btn-reset">
-          <Icon icon="reload" size={25}/>
+          <Icon icon="reload" size={25} />
         </button>
       </div>
       <h1>
