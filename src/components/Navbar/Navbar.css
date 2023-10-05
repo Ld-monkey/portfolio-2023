@@ -13,7 +13,7 @@ nav ul {
   gap: 30px;
 }
 
-nav ul li {
+header nav ul li {
   display: none;
 }
 
@@ -45,7 +45,7 @@ nav ul li:nth-child(n + 5) {
     justify-content: center;
   }
 
-  nav ul li {
+  header nav ul li {
     display: inline-block;
   } 
 

@@ -1,0 +1,7 @@
+aside {
+    display: none;
+}
+
+aside.is-active {
+    display: block;
+}
