@@ -1,6 +1,6 @@
-main {
+.App {
     max-width: 80vw;
-    width: 1280px;
+    width: 128rem;
     margin: 0 auto;
 }
 
