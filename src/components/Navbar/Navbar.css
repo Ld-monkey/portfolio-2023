@@ -17,31 +17,36 @@ header nav ul li {
   display: none;
 }
 
-nav ul li:nth-child(1) {
+header nav ul li:nth-child(1) {
   margin-left: auto;
 }
 
-nav ul li:nth-child(5) {
+header nav ul li:nth-child(5) {
   position: absolute;
   right: 70px;
 }
 
-nav ul li:nth-child(6) {
+header nav ul li:nth-child(6) {
   position: absolute;
   right: 20px;
 }
 
+/* Navbar of header and aside. */
 nav ul li a:nth-child(-n + 4):hover {
   text-decoration: underline;
 }
 
-nav ul li:nth-child(n + 5) {
+header nav ul li:nth-child(n + 5) {
   display: none;
+}
+
+.hamburger-container {
+  z-index: 2;
 }
 
 /* media query */
 @media screen and (min-width: 640px) {
-  nav {
+  header nav {
     justify-content: center;
   }
 
@@ -55,7 +60,7 @@ nav ul li:nth-child(n + 5) {
 }
 
 @media screen and (min-width: 1024px) {
-  nav ul li:nth-child(n + 5) {
+  header nav ul li:nth-child(n + 5) {
     display: inline;
   }
 }

@@ -30,7 +30,11 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/Ld-monkey">
+              <a
+                href="https://github.com/Ld-monkey"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Icon icon="github" size={26} color="white" />
               </a>
             </li>
@@ -45,7 +49,7 @@ function Navbar() {
           </div>
         </nav>
       </header>
-      <AsideMenu toggled={isOpen} />
+      <AsideMenu toggled={isOpen} toggle={setOpen} />
     </>
   );
 }

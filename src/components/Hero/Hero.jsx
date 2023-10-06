@@ -24,11 +24,13 @@ function Hero() {
             duration: 200,
             animTimingFunction: 'EASE',
             type: 'oneByOne',
-            onReady: console.log,
           }}
-          callback={console.log}
         />
-        <button type="button" onClick={handleResetAnimation} className="btn-reset">
+        <button
+          type="button"
+          onClick={handleResetAnimation}
+          className="btn-reset"
+        >
           <Icon icon="reload" size={25} />
         </button>
       </div>
