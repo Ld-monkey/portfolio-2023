@@ -1,0 +1,30 @@
+.card-container {
+  position: relative;
+  min-height: 44rem;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+/* Background white circles */
+.card-blur-circle {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  filter: blur(135px);
+  background: hsla(0, 0%, 100%, 0.2);
+}
+
+.top-background {
+  top: -15rem;
+  left: -15rem;
+}
+
+.bottom-background {
+  bottom: -10rem;
+  right: -10rem;
+}
