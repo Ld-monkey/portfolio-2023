@@ -1,22 +1,97 @@
 .App {
-    max-width: 80vw;
-    width: 128rem;
-    margin: 0 auto;
+  max-width: 80vw;
+  width: 128rem;
+  margin: 0 auto;
 }
 
 #about-section {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 #about-section h3 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Top svg pink circle */
 .top-circle {
-    position: relative;
+  position: relative;
 }
 
 .top-circle > img {
-    position: absolute;
+  position: absolute;
+}
+
+/* About me */
+.cards-wrapper {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cards-wrapper > div {
+  max-width: 44rem;
+}
+
+.list-about-me {
+	list-style: none;
+	padding: 0;
+}
+
+.list-about-me li {
+	list-style: none;
+}
+
+/* Icons for diploma and work experience. */
+.list-icon::before {
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	width: 2.6rem;
+	height: 2.6rem;
+	content: " ";
+	background-color: white;
+	mask-image: url("/images/icons/diploma-1.svg");
+	-webkit-mask-image: url("/images/icons/diploma-1.svg");
+	mask-size: cover;
+	margin-right: 12px;
+}
+
+.diploma {
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  .cards-wrapper {
+    flex-direction: row;
+    align-items: normal;
+  }
+
+  .cards-wrapper > div {
+    max-width: 100%;
+  }
+
+  .cards-wrapper > div:first-child {
+    flex: 1;
+  }
+
+  .cards-wrapper > div:last-child {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards-wrapper {
+    flex-direction: row;
+  }
+
+  .cards-wrapper > div:first-child {
+    flex: 1;
+  }
+
+  .cards-wrapper > div:last-child {
+    flex: 2;
+  }
 }
