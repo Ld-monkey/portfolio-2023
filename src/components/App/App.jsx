@@ -42,18 +42,24 @@ function App() {
           </Card>
           <Card>
             <ul className="list-about-me">
-              <li className="list-icon diploma">Dipômes</li>
+              <li className="list-icon diploma">
+                <h4>Diplômes</h4>
+              </li>
               <ul>
                 <li>
-                  Titre Professionnel DWWM <span>(sept. 2023)</span>
+                  Titre Professionnel <a href="#">DWWM</a>{' '}
+                  <span>(sept. 2023)</span>
                 </li>
                 <li>
-                  Master de Bio-Informatique <span>(avr. 2020)</span>
+                  <a href="#">Master de Bio-Informatique </a>
+                  <span>(avr. 2020)</span>
                 </li>
               </ul>
             </ul>
             <ul className="list-about-me">
-              <li className="">Expérience</li>
+              <li className="list-icon experience">
+                <h4>Expérience</h4>
+              </li>
               <ul>
                 <li>5 ans d&apos;expériences dans la programmation</li>
                 <li>

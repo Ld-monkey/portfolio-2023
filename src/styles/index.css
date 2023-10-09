@@ -50,6 +50,10 @@ h3 {
   font-size: var(--font-size-fluid-h3);
 }
 
+h4 {
+  font-size: var(--font-size-fluid-h4);
+}
+
 a {
   text-decoration: none;
   color: var(--default-link-color);

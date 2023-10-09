@@ -21,47 +21,69 @@
   position: absolute;
 }
 
+#about-section a {
+  text-decoration: underline;
+}
+
 /* About me */
 .cards-wrapper {
   margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1.1rem;
 }
 
 .cards-wrapper > div {
   max-width: 44rem;
 }
 
+.cards-wrapper p:first-of-type::first-letter{
+  font-size: 3.5rem;
+}
+
 .list-about-me {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .list-about-me li {
-	list-style: none;
+  list-style: none;
+}
+
+.list-about-me ul, .list-about-me li + li{
+  margin-top: 4rem;
+}
+
+.list-about-me h4{
+  display: inline;
 }
 
 /* Icons for diploma and work experience. */
 .list-icon::before {
-	display: inline-block;
-	position: relative;
-	top: 8px;
-	width: 2.6rem;
-	height: 2.6rem;
-	content: " ";
-	background-color: white;
-	mask-image: url("/images/icons/diploma-1.svg");
-	-webkit-mask-image: url("/images/icons/diploma-1.svg");
-	mask-size: cover;
-	margin-right: 12px;
+  display: inline-block;
+  position: relative;
+  width: 2.6rem;
+  height: 2.6rem;
+  content: ' ';
+  margin-right: 12px;
+  background-color: white;
+  mask-size: cover;
 }
 
-.diploma {
-
+/* diploma icon */
+.diploma::before {
+  top: 8px;
+  mask-image: url('/images/icons/diploma-1.svg');
+  -webkit-mask-image: url('/images/icons/diploma-1.svg');
 }
 
+/* bag icon */
+.experience::before {
+  top: 4px;
+  mask-image: url('/images/icons/bag-sharp.svg');
+  -webkit-mask-image: url('/images/icons/bag-sharp.svg');
+}
 
 @media screen and (min-width: 1024px) {
   .cards-wrapper {
@@ -88,10 +110,10 @@
   }
 
   .cards-wrapper > div:first-child {
-    flex: 1;
+    flex: 42%;
   }
 
   .cards-wrapper > div:last-child {
-    flex: 2;
+    flex: 58%;
   }
 }
