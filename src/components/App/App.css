@@ -5,7 +5,34 @@
 }
 
 #about-section {
-  min-height: 100vh;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+.about-section-wrapper {
+  position: relative;
+  /* border: 1px solid yellow; */
+}
+
+.about-section-wrapper::before {
+  content: ' ';
+  position: absolute;
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 1050px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-image: url('/images/backgrounds/about-me-pink-blur-left.svg'),
+    url('public/images/backgrounds/about-me-pink-blur-rigth.svg');
+  background-repeat: no-repeat;
+  background-position:
+    left top,
+    right bottom;
+  z-index: -1;
 }
 
 #about-section h3 {
@@ -38,7 +65,7 @@
   max-width: 44rem;
 }
 
-.cards-wrapper p:first-of-type::first-letter{
+.cards-wrapper p:first-of-type::first-letter {
   font-size: 3.5rem;
 }
 
@@ -51,11 +78,12 @@
   list-style: none;
 }
 
-.list-about-me ul, .list-about-me li + li{
-  margin-top: 4rem;
+.list-about-me ul,
+.list-about-me li + li {
+  margin-top: 5%;
 }
 
-.list-about-me h4{
+.list-about-me h4 {
   display: inline;
 }
 
@@ -85,10 +113,18 @@
   -webkit-mask-image: url('/images/icons/bag-sharp.svg');
 }
 
+/* background circles */
+.card-left-circle {
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+}
+
 @media screen and (min-width: 1024px) {
   .cards-wrapper {
     flex-direction: row;
     align-items: normal;
+    margin: 10px;
   }
 
   .cards-wrapper > div {
@@ -107,10 +143,12 @@
 @media screen and (min-width: 1280px) {
   .cards-wrapper {
     flex-direction: row;
+    max-width: 128rem;
+    margin: 5% auto;
   }
 
   .cards-wrapper > div:first-child {
-    flex: 42%;
+    flex: 42%; /* Adapt to the figma design */
   }
 
   .cards-wrapper > div:last-child {
