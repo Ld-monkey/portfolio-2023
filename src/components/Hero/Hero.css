@@ -1,78 +1,72 @@
 #hero-section {
-    height: 100vh;
-}
-
-@media screen and (orientation: landscape) {
-    #hero-section {
-        height: 100%;
-    }
+  height: 100vh;
 }
 
 .hero-grid {
-    height: 100%;
-    display: grid;
-    grid-template-rows: 3fr 1fr;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
 }
 
 .hero-container {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4.1rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.1rem;
 }
 
 .hero-container h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .hero-image {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 #green-face {
-    width: 21.2rem;
-    height: 21.2rem;
+  width: 21.2rem;
+  height: 21.2rem;
 }
 
 .btn-reset {
-    position: absolute;
-    right: 8px;
-    bottom: 0;
-    border: none;
-    outline: none;
-    background: none;
-    cursor: pointer;
-    height: 2.6rem;
-    padding: 0;
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  height: 2.6rem;
+  padding: 0;
 }
 
 /* Select reload icon. */
 .btn-reset svg {
-    color: hsla(0, 0%, 91%, 0.15)
+  color: hsla(0, 0%, 91%, 0.15);
 }
 
 .btn-reset svg:hover {
-    animation: reload-spinner 1.2s linear infinite;
+  animation: reload-spinner 1.2s linear infinite;
 }
 
 @keyframes reload-spinner {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (min-width: 920px) {
-    .hero-container {
-        flex-direction: row;
-        justify-content: center;
-    }
+  .hero-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    .hero-container h1 {
-        text-align: left;
-    }
+  .hero-container h1 {
+    text-align: left;
+  }
 }
