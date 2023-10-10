@@ -1,0 +1,60 @@
+[
+  {
+    "title": "O + Offrant",
+    "description": "Simulateur de vente aux enchères réalisé sur 1 mois en collaboration avec 4 développeurs lors de ma formation avec O’clock.",
+    "link": "https://o-plus-offrant-front-end-production.up.railway.app/",
+    "previewImage": "images/projects/o-plus-offrant.png",
+    "alt": "O plus offrant project",
+    "codes": {
+      "frontEnd": "https://github.com/Ld-monkey/o-plus-offrant-front-end",
+      "backEnd": "https://github.com/Ld-monkey/o-plus-offrant-back-end"
+    },
+    "technologies": [
+      {
+        "label": "react",
+        "icon": "react"
+      },
+      {
+        "label": "vite",
+        "icon": "vite"
+      }
+    ]
+  },
+  {
+    "title": "GeneNoteBook",
+    "description": "Application web réalisée sur 2 ans pour parcourir ajouter et stocker des données biologiques",
+    "link": "https://genenotebook.aldic.ovh/",
+    "previewImage": "images/projects/genenotebook.png",
+    "alt": "genenotebook application",
+    "codes": {
+      "frontEnd": "https://github.com/Ld-monkey/genenotebook"
+    },
+    "technologies": [
+      {
+        "label": "react",
+        "icon": "react"
+      },
+      {
+        "label": "vite",
+        "icon": "vite"
+      }
+    ]
+  },
+  {
+    "title": "ActiveDataFlow",
+    "description": "Mise en place d’une interace web pour faciliter l’installation, la gestion, le partage et l’analyse des images en biologies.",
+    "previewImage": "images/projects/activedataflow.png",
+    "alt": "activedataflow application",
+    "codes": {},
+    "technologies": [
+      {
+        "label": "react",
+        "icon": "react"
+      },
+      {
+        "label": "vite",
+        "icon": "vite"
+      }
+    ]
+  }
+]
