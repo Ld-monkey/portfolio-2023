@@ -62,7 +62,7 @@ function App() {
               </ul>
               <ul className="list-about-me">
                 <li className="list-icon experience">
-                  <h4>Expérience</h4>
+                  <h4>Expériences</h4>
                 </li>
                 <ul>
                   <li>5 ans d&apos;expériences dans la programmation</li>
