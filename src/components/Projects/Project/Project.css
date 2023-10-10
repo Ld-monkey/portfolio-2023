@@ -1,3 +1,21 @@
+.project-preview {
+  position: relative;
+}
+
+.project-preview::before {
+  content: ' ';
+  position: absolute;
+  width: 37.7rem;
+  height: 37.7rem;
+  background: linear-gradient(
+    180deg,
+    var(--dark-pink-circle-color) 0%,
+    var(--dark-gray-circle-color) 100%
+  );
+  filter: blur(17.5rem);
+  z-index: -1;
+}
+
 .project-img {
   transition: 0.3s;
 }

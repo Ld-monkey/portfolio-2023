@@ -15,6 +15,9 @@
   --default-font-color: hsla(0, 0%, 100%, 1);
   --default-link-color: white;
 
+  --dark-pink-circle-color: hsl(322.5, 50%, 50%);
+  --dark-gray-circle-color: hsl(0, 5%, 31%, 0);
+
   /* Fonts size */
   --font-size-fluid-h1: clamp(3.6rem, 4.67vw + 1.73rem, 6.4rem);
   --font-size-fluid-h2: clamp(3.2rem, 4.17vw + 1.53rem, 5.7rem);

@@ -2,12 +2,18 @@
 import Icon from '../../Icons/Icons';
 import './Project.css';
 
-function Project({values}) {
+function Project({ values }) {
   return (
     <div className="project-container">
-      <a href={values.link} target="_blank" rel="noreferrer">
-        <img src={values.previewImage} alt={values.alt} className="project-img" />
-      </a>
+      <div className="project-preview">
+        <a href={values.link} target="_blank" rel="noreferrer">
+          <img
+            src={values.previewImage}
+            alt={values.alt}
+            className="project-img"
+          />
+        </a>
+      </div>
       <div className="project-content">
         <h4>{values.title}</h4>
         <p>{values.description}</p>
@@ -16,7 +22,11 @@ function Project({values}) {
             {values.codes.frontEnd && (
               <li>
                 <p>Front end</p>
-                <a href={values.codes.frontEnd} target="_blank" rel="noreferrer">
+                <a
+                  href={values.codes.frontEnd}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Icon icon="github" size={24} color="white" />
                 </a>
               </li>
@@ -35,9 +45,7 @@ function Project({values}) {
           <p>Technologies</p>
           <ul>
             <li>
-              <a href="https://react.dev/" target="_blank" rel="noreferrer">
-                <Icon icon="react" size={32} color="white" />
-              </a>
+              <Icon icon="react" size={32} color="white" />
             </li>
           </ul>
         </div>
