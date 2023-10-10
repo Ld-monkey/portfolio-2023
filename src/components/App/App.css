@@ -1,25 +1,24 @@
 .App {
+}
+
+.wrapper {
   max-width: 80vw;
   width: 128rem;
   margin: 0 auto;
+  /* border: 1px solid brown; */
 }
 
-#about-section {
-  position: absolute;
-  left: 0;
+.about-section {
+  position: relative;
   width: 100%;
   margin-top: 10px;
   /* border: 1px solid red; */
 }
 
-.about-section-wrapper {
-  position: relative;
-  /* border: 1px solid yellow; */
-}
-
-.about-section-wrapper::before {
+.about-section::before {
   content: ' ';
   position: absolute;
+  left: 0;
   /* border: 2px solid green; */
   width: 100%;
   max-width: 192rem;
