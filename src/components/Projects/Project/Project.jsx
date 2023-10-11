@@ -42,12 +42,18 @@ function Project({ values }) {
           </ul>
         </div>
         <div className="technologies-container">
-          <p>Technologies</p>
-          <ul>
-            <li>
-              <Icon icon="react" size={32} color="white" />
-            </li>
-          </ul>
+          {values.technologies && (
+            <>
+              <p>Technologies</p>
+              <ul>
+                {values.technologies.map((tech) => (
+                  <li key={tech.label}>
+                    <Icon icon={tech.icon} size={tech.size || 32} color="white" />
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       </div>
     </div>

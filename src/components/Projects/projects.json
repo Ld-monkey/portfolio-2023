@@ -16,7 +16,8 @@
       },
       {
         "label": "vite",
-        "icon": "vite"
+        "icon": "vite",
+        "size": 28
       }
     ]
   },
@@ -32,11 +33,13 @@
     "technologies": [
       {
         "label": "react",
-        "icon": "react"
+        "icon": "react",
+        "size": 32
       },
       {
         "label": "vite",
-        "icon": "vite"
+        "icon": "vite",
+        "size": 28
       }
     ]
   },
@@ -53,7 +56,8 @@
       },
       {
         "label": "vite",
-        "icon": "vite"
+        "icon": "vite",
+        "size": 28
       }
     ]
   }

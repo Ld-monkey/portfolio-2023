@@ -5,8 +5,8 @@
 .project-preview::before {
   content: ' ';
   position: absolute;
-  width: 37.7rem;
-  height: 37.7rem;
+  width: 32rem;
+  height: 32rem;
   background: linear-gradient(
     180deg,
     var(--dark-pink-circle-color) 0%,
@@ -22,7 +22,6 @@
 
 .project-img:hover {
   transform: scale(1.1);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
 .project-container {
@@ -43,13 +42,13 @@
 }
 
 .project-content ul {
+  display: flex;
   margin: 2.7rem auto;
   padding: 0;
   list-style: none;
 }
 
 .references-container > ul {
-  display: flex;
   justify-content: center;
   gap: 3.8rem;
 }
@@ -62,6 +61,10 @@
 
 .technologies-container > p {
   text-align: center;
+}
+
+.technologies-container ul {
+  gap: 1rem;
 }
 
 @media screen and (min-width: 768px) {
