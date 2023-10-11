@@ -32,6 +32,10 @@
   gap: 3.9rem;
 }
 
+.project-content span {
+  font-size: var(--font-size-fluid-p-sm);
+}
+
 .project-content > h4 {
   text-align: center;
 }

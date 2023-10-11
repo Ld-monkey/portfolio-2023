@@ -72,6 +72,10 @@
   max-width: 44rem;
 }
 
+.period {
+  font-size: var(--font-size-fluid-p-sm);
+}
+
 .cards-wrapper p:first-of-type::first-letter {
   font-size: 3.5rem;
 }
@@ -81,6 +85,10 @@
   padding: 0;
 }
 
+.list-about-me h4 {
+  display: inline;
+}
+
 .list-about-me li {
   list-style: none;
 }
@@ -88,10 +96,6 @@
 .list-about-me ul,
 .list-about-me li + li {
   margin-top: 5%;
-}
-
-.list-about-me h4 {
-  display: inline;
 }
 
 /* Icons for diploma and work experience. */

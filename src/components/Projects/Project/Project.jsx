@@ -15,29 +15,23 @@ function Project({ values }) {
         </a>
       </div>
       <div className="project-content">
-        <h4>{values.title}</h4>
+        <h4>
+          {values.title} {values.period && <span>({values.period})</span>}
+        </h4>
         <p>{values.description}</p>
         <div className="references-container">
           <ul>
-            {values.codes.frontEnd && (
-              <li>
-                <p>Front end</p>
-                <a
-                  href={values.codes.frontEnd}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Icon icon="github" size={24} color="white" />
-                </a>
-              </li>
-            )}
-            {values.codes.backEnd && (
-              <li>
-                <p>Back end</p>
-                <a href={values.codes.backEnd} target="_blank" rel="noreferrer">
-                  <Icon icon="github" size={24} color="white" />
-                </a>
-              </li>
+            {values.codes && (
+              <>
+                {values.codes.map((code) => (
+                  <li key={code.label}>
+                    <p>{code.label}</p>
+                    <a href={code.source} target="_blank" rel="noreferrer">
+                      <Icon icon={code.icon} size={24} color="white" />
+                    </a>
+                  </li>
+                ))}
+              </>
             )}
           </ul>
         </div>

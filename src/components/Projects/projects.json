@@ -5,10 +5,21 @@
     "link": "https://o-plus-offrant-front-end-production.up.railway.app/",
     "previewImage": "images/projects/o-plus-offrant.png",
     "alt": "O plus offrant project",
-    "codes": {
-      "frontEnd": "https://github.com/Ld-monkey/o-plus-offrant-front-end",
-      "backEnd": "https://github.com/Ld-monkey/o-plus-offrant-back-end"
-    },
+    "codes": [
+      {
+        "platefrom": "github",
+        "icon": "github",
+        "label": "Front end",
+        "source": "https://github.com/Ld-monkey/o-plus-offrant-front-end"
+      },
+      {
+        "platefrom": "github",
+        "icon": "github",
+        "label": "Back end",
+        "source": "https://github.com/Ld-monkey/o-plus-offrant-back-end"
+      }
+    ],
+    "period": "juill. 2023",
     "technologies": [
       {
         "label": "react",
@@ -65,12 +76,6 @@
         "size": 28
       },
       {
-        "label": "jwt",
-        "icon": "jwt",
-        "source": "https://jwt.io/",
-        "size": 65
-      },
-      {
         "label": "postgresql",
         "icon": "postgresql",
         "source": "https://www.postgresql.org/",
@@ -90,9 +95,15 @@
     "link": "https://genenotebook.aldic.ovh/",
     "previewImage": "images/projects/genenotebook.png",
     "alt": "genenotebook application",
-    "codes": {
-      "frontEnd": "https://github.com/Ld-monkey/genenotebook"
-    },
+    "codes": [
+      {
+        "platefrom": "github",
+        "label": "Front end / Back end",
+        "icon": "github",
+        "source": "https://github.com/Ld-monkey/genenotebook"
+      }
+    ],
+    "period": "nov. 2021 - févr. 2023",
     "technologies": [
       {
         "label": "react",
@@ -131,7 +142,12 @@
     "description": "Mise en place d’une interace web pour faciliter l’installation, la gestion, le partage et l’analyse des images en biologies.",
     "previewImage": "images/projects/activedataflow.png",
     "alt": "activedataflow application",
-    "codes": {},
+    "codes": [
+      {
+        "label": "Logiciel fermé et propriétaire"
+      }
+    ],
+    "period": "nov. 2020 - oct. 2021",
     "technologies": [
       {
         "label": "django",

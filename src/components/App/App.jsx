@@ -53,14 +53,24 @@ function App() {
               <ul>
                 <li>
                   Titre Professionnel{' '}
-                  <a href="https://www.francecompetences.fr/recherche/rncp/31114/">
+                  <a
+                    href="https://www.francecompetences.fr/recherche/rncp/31114/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     DWWM
                   </a>{' '}
-                  <span>(sept. 2023)</span>
+                  <span className="period">(sept. 2023)</span>
                 </li>
                 <li>
-                  <a href="#">Master de Bio-Informatique </a>
-                  <span>(avr. 2020)</span>
+                  <a
+                    href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Master de Bio-Informatique{' '}
+                  </a>{' '}
+                  <span className="period">(avr. 2020)</span>
                 </li>
               </ul>
             </ul>
