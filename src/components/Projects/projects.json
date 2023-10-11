@@ -12,18 +12,81 @@
     "technologies": [
       {
         "label": "react",
-        "icon": "react"
+        "icon": "react",
+        "source": "https://react.dev/",
+        "size": 26
+      },
+      {
+        "label": "react-router",
+        "icon": "reactrouter-wordmark",
+        "source": "https://reactrouter.com/",
+        "size": 30
+      },
+      {
+        "label": "react redux",
+        "icon": "redux",
+        "source": "https://react-redux.js.org/",
+        "size": 26
+      },
+      {
+        "label": "typescript",
+        "icon": "typescript-alt",
+        "source": "https://www.typescriptlang.org/",
+        "size": 22
+      },
+      {
+        "label": "sass",
+        "icon": "logo-sass",
+        "source": "https://sass-lang.com/",
+        "size": 24
+      },
+      {
+        "label": "axios",
+        "icon": "devicon-plain_axios-wordmark",
+        "source": "https://axios-http.com/fr/docs/intro",
+        "size": 28
       },
       {
         "label": "vite",
         "icon": "vite",
+        "source": "https://vitejs.dev/",
+        "size": 24
+      },
+      {
+        "label": "socket.io",
+        "icon": "socketdotio",
+        "source": "https://socket.io/",
+        "size": 24
+      },
+      {
+        "label": "expressjs",
+        "icon": "express1",
+        "source": "https://expressjs.com/",
         "size": 28
+      },
+      {
+        "label": "jwt",
+        "icon": "jwt",
+        "source": "https://jwt.io/",
+        "size": 65
+      },
+      {
+        "label": "postgresql",
+        "icon": "postgresql",
+        "source": "https://www.postgresql.org/",
+        "size": 28
+      },
+      {
+        "label": "insomnia",
+        "icon": "insomnia",
+        "source": "https://insomnia.rest/",
+        "size": 22
       }
     ]
   },
   {
     "title": "GeneNoteBook",
-    "description": "Application web réalisée sur 2 ans pour parcourir ajouter et stocker des données biologiques",
+    "description": "Application web réalisée sur 2 ans pour parcourir ajouter et stocker des données biologiques.",
     "link": "https://genenotebook.aldic.ovh/",
     "previewImage": "images/projects/genenotebook.png",
     "alt": "genenotebook application",
@@ -34,11 +97,31 @@
       {
         "label": "react",
         "icon": "react",
-        "size": 32
+        "source": "https://react.dev/",
+        "size": 26
       },
       {
-        "label": "vite",
-        "icon": "vite",
+        "label": "meteorjs",
+        "icon": "meteor",
+        "source": "https://www.meteor.com/",
+        "size": 24
+      },
+      {
+        "label": "mongodb",
+        "icon": "mongodb",
+        "source": "https://www.mongodb.com/fr-fr",
+        "size": 24
+      },
+      {
+        "label": "mochajs",
+        "icon": "mocha",
+        "source": "https://mochajs.org/",
+        "size": 24
+      },
+      {
+        "label": "docker",
+        "icon": "docker",
+        "source": "https://www.docker.com/",
         "size": 28
       }
     ]
@@ -51,13 +134,37 @@
     "codes": {},
     "technologies": [
       {
-        "label": "react",
-        "icon": "react"
+        "label": "django",
+        "icon": "django",
+        "source": "https://www.djangoproject.com/",
+        "size": 26
       },
       {
-        "label": "vite",
-        "icon": "vite",
+        "label": "docker",
+        "icon": "docker",
+        "source": "https://www.docker.com/",
         "size": 28
+      },
+      {
+        "label": "python 3",
+        "icon": "python",
+        "source": "https://www.python.org/",
+        "size": 22
+      },
+      {
+        "label": "HTML",
+        "icon": "html5-fill",
+        "size": 24
+      },
+      {
+        "label": "CSS",
+        "icon": "css-fill",
+        "size": 22
+      },
+      {
+        "label": "JavaScript",
+        "icon": "js",
+        "size": 24
       }
     ]
   }

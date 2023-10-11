@@ -48,7 +48,18 @@ function Project({ values }) {
               <ul>
                 {values.technologies.map((tech) => (
                   <li key={tech.label}>
-                    <Icon icon={tech.icon} size={tech.size || 32} color="white" />
+                    <a
+                      href={tech.source}
+                      title={tech.label}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Icon
+                        icon={tech.icon}
+                        size={tech.size || 32}
+                        color="white"
+                      />
+                    </a>
                   </li>
                 ))}
               </ul>
