@@ -5,36 +5,41 @@
   max-width: 80vw;
   width: 128rem;
   margin: 0 auto;
-  /* border: 1px solid brown; */
 }
 
 .about-section {
   position: relative;
-  width: 100%;
   margin-top: 10px;
   /* border: 1px solid red; */
 }
 
-.about-section::before {
+.circle-blur {
   content: ' ';
   position: absolute;
-  left: 0;
-  /* border: 2px solid green; */
-  width: 100%;
-  max-width: 192rem;
-  height: 96.5rem;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-image: url('/images/backgrounds/about-me-pink-blur-left.svg'),
-    url('/images/backgrounds/about-me-pink-blur-rigth.svg');
-  background-repeat: no-repeat;
-  background-position:
-    left top,
-    right bottom;
+  width: 75rem;
+  height: 75rem;
+  filter: blur(150px);
   z-index: -1;
+}
+
+.circle-blur.first {
+  background: linear-gradient(
+    180deg,
+    var(--dark-pink-circle-color) 0%,
+    var(--dark-gray-circle-color) 100%
+  );
+  top: calc((-75rem / 2) + 100%);
+  left: calc(-75rem / 2);
+}
+
+.circle-blur.second {
+  background: linear-gradient(
+    180deg,
+    var(--dark-pink-circle-color) 0%,
+    var(--dark-gray-circle-color) 100%
+  );
+  right: calc(-75rem / 2);
+  top: 0;
 }
 
 #about-section h3 {

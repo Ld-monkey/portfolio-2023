@@ -21,7 +21,9 @@ function App() {
           </div>
         </section>
       </div>
-      <section className="about-section" id="about-section">
+      <section className="about-section wrapper" id="about-section">
+        <div className="circle-blur first" />
+        <div className="circle-blur second" />
         <h3>&Agrave; Propros</h3>
         <div className="cards-wrapper">
           <Card>
