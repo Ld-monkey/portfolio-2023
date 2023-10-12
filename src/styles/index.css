@@ -43,8 +43,6 @@ body {
   font-size: 1.6rem;
   min-height: 100vh;
   color: var(--default-font-color);
-  /* hidden right circle blur effect */
-  overflow-x: hidden; 
 }
 
 h1 {

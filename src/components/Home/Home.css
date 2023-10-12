@@ -1,0 +1,22 @@
+/* In home main section add top header pink circle. */
+.header-top-circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top-circle::before {
+  content: ' ';
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    #bf3f8f 31.91%,
+    rgba(83, 75, 75, 0) 99.97%
+  );
+  filter: blur(150px);
+  transform: translateY(-65%);
+  border-radius: 50%;
+  width: 80%;
+  height: 88rem;
+  z-index: -1;
+}
