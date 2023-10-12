@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="circle-blur first" />
       <div className="circle-blur second" />
       <h3>&Agrave; Propros</h3>
-      <div className="cards-wrapper wrapper">
+      <div className="cards-wrapper">
         <Card>
           <p>
             Passionné par l’informatique, j’ai terminé mes études pour devenir

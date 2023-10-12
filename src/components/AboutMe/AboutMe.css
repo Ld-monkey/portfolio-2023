@@ -45,7 +45,7 @@
 
 /* Style cards in about me section */
 .cards-wrapper {
-  margin-top: 5%;
+  margin: 5% 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +108,7 @@
   -webkit-mask-image: url('/images/icons/bag-sharp.svg');
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
   .cards-wrapper {
     flex-direction: row;
     align-items: normal;
