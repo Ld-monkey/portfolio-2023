@@ -1,0 +1,14 @@
+footer {
+  max-width: 25rem;
+  margin: 4.1rem auto;
+  height: 20rem;
+  text-align: center;
+}
+
+footer p + p {
+  margin-top: 1.5rem;
+}
+
+footer a {
+  text-decoration: underline;
+}

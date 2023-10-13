@@ -1,25 +1,25 @@
 .scrolling-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .arrow-bottom {
-    margin-right: .7rem;
+  margin-right: 0.7rem;
 }
 
 .scrolling-link {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .scrolling-container:hover > svg {
-    animation: action 0.5s infinite alternate;
+  animation: action 0.5s infinite alternate;
 }
 
 @keyframes action {
-    0% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(0.4rem);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0.4rem);
+  }
 }

@@ -22,7 +22,7 @@ function AsideMenu({ toggled, toggle }) {
             </a>
           </li>
           <li>
-            <a href="#contact-setction" onClick={() => toggle(!toggled)}>
+            <a href="#contact-section" onClick={() => toggle(!toggled)}>
               Contact
             </a>
           </li>

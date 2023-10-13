@@ -1,8 +1,81 @@
 .contact-section {
   margin-top: 5%;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact-section > h4 {
+.contact-section > h3 {
   text-align: center;
+  margin-bottom: 5.3rem;
+}
+
+.contact-section__btn {
+  border: none;
+  margin-bottom: 9.5rem;
+  background: linear-gradient(
+    90deg,
+    hsla(244, 62%, 25%, 1) 0%,
+    rgba(209, 207, 252, 0) 170%
+  );
+  width: 23rem;
+  height: 5.8rem;
+  border-radius: 0.4rem;
+  transition: background-color 1s;
+}
+
+.contact-section__btn:hover {
+  background-color: var(--dark-pink-circle-color);
+  cursor: pointer;
+}
+
+.contact-section__btn > a {
+  color: var(--default-font-color);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1.8rem 6.6rem 1.8rem 5rem;
+  position: relative;
+}
+
+.contact-section__btn > a::after {
+  content: ' ';
+  position: absolute;
+  margin-left: 1.3rem;
+  height: 2.4rem;
+  width: 2.4rem;
+  mask-image: url('/images/icons/arrow-right.svg');
+  mask-size: cover;
+  background-color: white;
+}
+
+.contact-section__btn:hover a::after {
+  animation: movearrow 0.5s infinite alternate;
+}
+
+@keyframes movearrow {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0.5rem);
+  }
+}
+
+.contact-section__icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact-section__icons ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section__icons li {
+  display: inline-block;
+}
+
+.contact-section__icons li + li {
+  margin-left: 3.5rem;
 }
