@@ -22,7 +22,7 @@ function Navbar() {
               <a href="#projects-section">Réalisations</a>
             </li>
             <li>
-              <a href="#contact-setction">Contact</a>
+              <a href="#contact-section">Contact</a>
             </li>
             <li>
               <a href="mailto:">

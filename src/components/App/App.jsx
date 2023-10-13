@@ -1,6 +1,7 @@
 import Home from '../Home/Home';
 import AboutMe from '../AboutMe/AboutMe';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
