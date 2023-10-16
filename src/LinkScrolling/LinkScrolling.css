@@ -1,0 +1,10 @@
+.link-scroll {
+  border: none;
+  background: none;
+  color: var(--default-link-color);
+  cursor: pointer;
+}
+
+.link-scroll:hover {
+  text-decoration: underline;
+}

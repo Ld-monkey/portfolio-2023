@@ -4,6 +4,7 @@ import Icon from '../Icons/Icons';
 import './Navbar.css';
 import AsideMenu from './AsideMenu/AsideMenu';
 import Mail from '../Mail/Mail';
+import LinkScrolling from '../../LinkScrolling/LinkScrolling';
 
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
@@ -14,16 +15,24 @@ function Navbar() {
         <nav>
           <ul>
             <li>
-              <a href="#hero-section">Accueil</a>
+              <LinkScrolling idElement="#hero-section">
+                <p>Accueil</p>
+              </LinkScrolling>
             </li>
             <li>
-              <a href="#about-section">&Agrave; propos</a>
+              <LinkScrolling idElement="about-section">
+                <p>&Agrave; propos</p>
+              </LinkScrolling>
             </li>
             <li>
-              <a href="#projects-section">Réalisations</a>
+              <LinkScrolling idElement="projects-section">
+                <p>Réalisations</p>
+              </LinkScrolling>
             </li>
             <li>
-              <a href="#contact-section">Contact</a>
+              <LinkScrolling idElement="contact-section">
+                <p>Contact</p>
+              </LinkScrolling>
             </li>
             <li>
               <Mail />

@@ -1,5 +1,6 @@
 import Icon from '../../Icons/Icons';
 import Mail from '../../Mail/Mail';
+import LinkScrolling from '../../../LinkScrolling/LinkScrolling';
 import './AsideMenu.css';
 
 function AsideMenu({ toggled, toggle }) {
@@ -8,24 +9,36 @@ function AsideMenu({ toggled, toggle }) {
       <nav>
         <ul>
           <li>
-            <a href="#hero-section" onClick={() => toggle(!toggled)}>
-              Accueil
-            </a>
+            <LinkScrolling
+              idElement="#hero-section"
+              onClick={() => toggle(!toggled)}
+            >
+              <p>Accueil</p>
+            </LinkScrolling>
           </li>
           <li>
-            <a href="#about-section" onClick={() => toggle(!toggled)}>
-              &Agrave; propos
-            </a>
+            <LinkScrolling
+              idElement="about-section"
+              onClick={() => toggle(!toggled)}
+            >
+              <p>&Agrave; propos</p>
+            </LinkScrolling>
           </li>
           <li>
-            <a href="#projects-section" onClick={() => toggle(!toggled)}>
-              Réalisations
-            </a>
+            <LinkScrolling
+              idElement="projects-section"
+              onClick={() => toggle(!toggled)}
+            >
+              <p>Réalisations</p>
+            </LinkScrolling>
           </li>
           <li>
-            <a href="#contact-section" onClick={() => toggle(!toggled)}>
-              Contact
-            </a>
+            <LinkScrolling
+              idElement="contact-section"
+              onClick={() => toggle(!toggled)}
+            >
+              <p>Contact</p>
+            </LinkScrolling>
           </li>
           <div className="logo-container">
             <li>

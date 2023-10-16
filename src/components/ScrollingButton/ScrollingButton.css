@@ -7,8 +7,12 @@
   margin-right: 0.7rem;
 }
 
-.scrolling-link {
+.small-linker {
   font-size: 1.2rem;
+}
+
+.small-linker:hover {
+  text-decoration: underline;
 }
 
 .scrolling-container:hover > svg {
