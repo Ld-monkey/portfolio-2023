@@ -139,7 +139,7 @@
   },
   {
     "title": "ActiveDataFlow",
-    "description": "Mise en place d’une interace web pour faciliter l’installation, la gestion, le partage et l’analyse des images en biologies.",
+    "description": "Mise en place d’une interface web pour faciliter l’installation, la gestion, le partage et l’analyse des images en biologies.",
     "previewImage": "images/projects/activedataflow.png",
     "alt": "activedataflow application",
     "codes": [

@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <section className="contact-section" id="contact-section">
+    <section className="contact-section wrapper" id="contact-section">
       <h3>Intéressé(e) par mon profil ?</h3>
       <button type="button" className="contact-section__btn">
         <a href="mailto:">Contactez-moi</a>
