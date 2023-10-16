@@ -61,9 +61,9 @@ function AboutMe() {
               <h4>Expériences</h4>
             </li>
             <ul>
-              <li>5 ans d&apos;expériences dans la programmation</li>
+              <li>5 ans d&apos;expériences dans la programmation.</li>
               <li>
-                3 ans de travail dans les entreprises de la recherche publiques
+                3 ans de travail dans les entreprises de la recherche publiques.
               </li>
             </ul>
           </ul>
