@@ -3,6 +3,7 @@ import Hamburger from 'hamburger-react';
 import Icon from '../Icons/Icons';
 import './Navbar.css';
 import AsideMenu from './AsideMenu/AsideMenu';
+import Mail from '../Mail/Mail';
 
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
@@ -25,9 +26,7 @@ function Navbar() {
               <a href="#contact-section">Contact</a>
             </li>
             <li>
-              <a href="mailto:">
-                <Icon icon="mail" size={27} color="white" />
-              </a>
+              <Mail />
             </li>
             <li>
               <a

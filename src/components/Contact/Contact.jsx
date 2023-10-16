@@ -1,4 +1,5 @@
 import Icon from '../Icons/Icons';
+import Mail from '../Mail/Mail';
 import './Contact.css';
 
 function Contact() {
@@ -6,7 +7,9 @@ function Contact() {
     <section className="contact-section wrapper" id="contact-section">
       <h3>Intéressé(e) par mon profil ?</h3>
       <button type="button" className="contact-section__btn">
-        <a href="mailto:">Contactez-moi</a>
+        <Mail>
+          Contacter-moi
+        </Mail>
       </button>
       <div className="contact-section__icons">
         <ul>
@@ -20,9 +23,7 @@ function Contact() {
             </a>
           </li>
           <li>
-            <a href="mailto:">
-              <Icon icon="mail" size={26} color="white" />
-            </a>
+            <Mail />
           </li>
         </ul>
       </div>

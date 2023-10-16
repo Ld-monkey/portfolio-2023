@@ -1,4 +1,5 @@
 import Icon from '../../Icons/Icons';
+import Mail from '../../Mail/Mail';
 import './AsideMenu.css';
 
 function AsideMenu({ toggled, toggle }) {
@@ -28,9 +29,7 @@ function AsideMenu({ toggled, toggle }) {
           </li>
           <div className="logo-container">
             <li>
-              <a href="mailto:" onClick={() => toggle(!toggled)}>
-                <Icon icon="mail" size={27} color="white" />
-              </a>
+              <Mail />
             </li>
             <li>
               <a
