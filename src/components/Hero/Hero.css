@@ -44,7 +44,7 @@
 
 /* Select reload icon. */
 .btn-reset svg {
-  color: hsla(0, 0%, 91%, 0.15);
+  color: hsla(0, 0%, 91%, 0.363);
 }
 
 .btn-reset svg:hover {

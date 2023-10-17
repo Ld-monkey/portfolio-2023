@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ReactVivus from '../ReactVivus/ReactVivus';
-import GreenFace from './green-face.svg';
+import GreenFace from '/images/face/green-face.svg';
 import Icon from '../Icons/Icons';
 import './Hero.css';
 
