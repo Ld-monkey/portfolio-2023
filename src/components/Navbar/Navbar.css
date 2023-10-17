@@ -32,10 +32,27 @@ header nav ul li:nth-child(6) {
 }
 
 /* Navbar of header and aside. */
-nav ul li a:nth-child(-n + 4):hover {
-  text-decoration: underline;
+nav ul li button:nth-child(-n + 4) {
+  position: relative;
 }
 
+/* Hover underline animation. */
+nav ul li button:nth-child(-n + 4)::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  height: 0.2rem;
+  transition: 0.3s ease-out;
+}
+
+nav ul li button:nth-child(-n + 4):hover::before  {
+  width: 100%;
+}
+
+/* Hidden Mail and Github icons in mobile first. */
 header nav ul li:nth-child(n + 5) {
   display: none;
 }

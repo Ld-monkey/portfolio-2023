@@ -6,10 +6,6 @@
   cursor: pointer;
 }
 
-.link-scroll:hover {
-  text-decoration: underline;
-}
-
 @media screen and (min-width: 920px) {
   .link-scroll {
     align-self: self-start;
