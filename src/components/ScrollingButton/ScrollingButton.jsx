@@ -1,4 +1,4 @@
-import LinkScrolling from '../../LinkScrolling/LinkScrolling';
+import LinkScrolling from '../LinkScrolling/LinkScrolling';
 import Icon from '../Icons/Icons';
 import './ScrollingButton.css';
 

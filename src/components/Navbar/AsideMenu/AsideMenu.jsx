@@ -1,6 +1,6 @@
 import Icon from '../../Icons/Icons';
 import Mail from '../../Mail/Mail';
-import LinkScrolling from '../../../LinkScrolling/LinkScrolling';
+import LinkScrolling from '../../LinkScrolling/LinkScrolling';
 import './AsideMenu.css';
 
 function AsideMenu({ toggled, toggle }) {

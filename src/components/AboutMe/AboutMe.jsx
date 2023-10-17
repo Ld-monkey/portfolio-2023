@@ -63,7 +63,7 @@ function AboutMe() {
             <ul>
               <li>5 ans d&apos;expériences dans la programmation.</li>
               <li>
-                3 ans de travail dans les entreprises de la recherche publiques.
+                3 ans de travail dans les entreprises de la recherche publique.
               </li>
             </ul>
           </ul>

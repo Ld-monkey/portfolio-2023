@@ -4,7 +4,7 @@ import Icon from '../Icons/Icons';
 import './Navbar.css';
 import AsideMenu from './AsideMenu/AsideMenu';
 import Mail from '../Mail/Mail';
-import LinkScrolling from '../../LinkScrolling/LinkScrolling';
+import LinkScrolling from '../LinkScrolling/LinkScrolling';
 
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
